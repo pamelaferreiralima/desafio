@@ -1,0 +1,51 @@
+html, * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2E388D;
+}
+
+.box-img-title {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 5rem;
+}
+
+.pokeball-img {
+    width: 180px;
+    margin-right: 3rem;
+}
+
+.title {
+    text-transform: uppercase;
+    color: #FAAE31;
+}
+
+.box-map {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-map-return {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-width: 50%;
+    height: 50vh;
+    background-color: #fff;
+    margin: 2rem;
+}
+
+.poke-img {
+    width: 200px;
+    height: 200px;
+    margin-right: 2rem;
+}
